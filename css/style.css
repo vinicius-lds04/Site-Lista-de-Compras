@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F4F5FB;
+    color: #080B12;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo span {
+    font-family: "Sora", sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    color: #374151;
+    
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #CA3884;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+#item-input {
+    flex: 1;
+    padding: 11px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: border-color 0.2s ease;
+}
+
+#item-input:hover {
+    border-color: #B9C2D0;
+}
+
+#item-input:focus {
+    border-color: #CA3884;
+    outline: none;
+}
+
+.menu button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    background-color: #CA3884;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.menu button:hover {
+    background-color: #A52C6B;
+}
+
+.shopping-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8.5px 12px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.item-list button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.item-list button img {
+    width: 16px;
+    height: 16px;
+}
+
+.item-list label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.item-name {
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+}
+
+.selection-box {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.selection-box:hover {
+    border-color: #B9C2D0;
+}
+
+.selection-box:checked {
+    background-color: #CA3884;
+    border-color: #CA3884;
+    background-image: url("../assets/checkmark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    margin-top: 36px;
+    background-color: #C93847;
+    border-radius: 12px;
+}
+
+.alert button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 4.25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.alert button:hover {
+    opacity: 0.8;
+}
+
+#close-button {
+    width: 20px;
+    height: 20px;
+}
+
+#warning-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.alert-text {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
