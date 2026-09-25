@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quicklist</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="icon" src="./assets/logo.svg" alt="Quicklist">
+            <span>quicklist</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <a href="#" class="back-link">← Voltar</a>
+
+        <h1>Compras da semana</h1>
+
+        <form class="menu">
+            <input id="item-input" type="text" placeholder="Adicione um novo item">
+            <button type="submit">Adicionar item</button>
+        </form>
+
+        <ul class="shopping-list">
+
+            <li class="item-list">
+
+                <label>
+                    <input class="selection-box" type="checkbox">
+                    <span class="item-name">Pão de Forma</span>
+                </label>
+
+                <button type="button" aria-label="Remover item"><img class="icon" src="./assets/trash-can.svg" alt=""></button>
+
+            </li>
+
+            <li class="item-list">
+
+                <label>
+                    <input class="selection-box" type="checkbox">
+                    <span class="item-name">Café Preto</span>
+                </label>
+
+                <button type="button" aria-label="Remover item"><img class="icon" src="./assets/trash-can.svg" alt=""></button>
+
+            </li>
+
+            <li class="item-list">
+
+                <label>
+
+                    <input class="selection-box" type="checkbox">
+                    <span class="item-name">Suco de Laranja</span>
+                </label>
+                
+                <button type="button" aria-label="Remover item"><img class="icon" src="./assets/trash-can.svg" alt=""></button>
+            
+            </li>
+
+            <li class="item-list">
+
+                <label>
+
+                    <input class="selection-box" type="checkbox">
+                    <span class="item-name">Bolacha</span>
+                </label>
+                
+                <button type="button" aria-label="Remover item"><img class="icon" src="./assets/trash-can.svg" alt=""></button>
+            
+            </li>
+            
+        </ul>
+
+        <div class="alert" role="alert">
+
+            <img class="icon" id="warning-icon" src="./assets/warning.svg" alt="">
+            <span class="alert-text">O item foi removido da lista</span>
+            <button type="button" aria-label="Fechar mensagem"><img class="icon" id="close-button" src="./assets/delete.svg" alt=""></button>
+            
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
