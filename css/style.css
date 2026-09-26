@@ -171,6 +171,10 @@ h1 {
     border-radius: 12px;
 }
 
+.alert.show {
+    display: flex;
+}
+
 .alert button {
     display: flex;
     align-items: center;
@@ -201,6 +205,11 @@ h1 {
     line-height: 20px;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.item-list.completed .item-name {
+    text-decoration: line-through;
+    opacity: 0.5;
 }
 
 @media (max-width: 600px) {
