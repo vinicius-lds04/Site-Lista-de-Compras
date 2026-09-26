@@ -10,11 +10,7 @@ Este projeto foi desenvolvido como **atividade complementar de um curso da [Rock
 
 ## 🖼️ Preview
 
-> Adicione aqui um screenshot da aplicação (ex: `assets/preview.png`) para exibir no README.
->
-> ```md
-> ![Preview do site](./assets/preview.png)
-> ```
+![Preview do site](./assets/preview.png)
 
 ## 🚀 Funcionalidades
 
