@@ -10,7 +10,7 @@ Este projeto foi desenvolvido como **atividade complementar de um curso da [Rock
 
 ## 🖼️ Preview
 
-![Preview do site](./assets/preview.png)
+![Preview do site](../assets/preview.png)
 
 ## 🚀 Funcionalidades
 
