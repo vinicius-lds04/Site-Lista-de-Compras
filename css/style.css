@@ -162,7 +162,7 @@ h1 {
 }
 
 .alert {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 8px;
     padding: 12px;
